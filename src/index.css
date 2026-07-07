@@ -1,0 +1,33 @@
+:root {
+  --bg: #f7f8fa;
+  --panel: #ffffff;
+  --border: #e4e7ec;
+  --text: #24292f;
+  --text-muted: #6b7280;
+  --accent: #15c39a;
+  --accent-dark: #0fa583;
+  --ring-track: #e4e7ec;
+  --mark-alpha: 0.14;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+}
